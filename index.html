@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+   <main>
+    <h1 class="text-center">Formulario</h1>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <div class="form-row align-items-center">
+                    <div class="InfoPessoais">
+                        <div class="Nome">
+                            <label class="Nome" for="nomeLabelBox">Nome</label>
+                            <input name="Nome" id="nomeTextBox"class="input" ></input>
+                        </div>
+                        
+                        <div class="cpf">
+                            <label class="Nome" for="nomeLabelBox">Nome</label>
+                            <input name="Nome" id="nomeTextBox"class="input" ></input>
+                        </div>
+        
+                        <div class="Email">
+                            <label class="Email" for="EmailLabel">Email</label>
+                            <input name="Email" id="emailTextBox"class="input" ></input>
+                        </div>
+        
+                        <div class="Telefone">
+                            <label class="Telefone" for="TelefoneLabelBox">Email</label>
+                            <input name="Telefone" id="telefoneTextBox"class="input" ></input>
+                        </div>
+                    </div>
+        
+                    <div class="Habilitação">
+                        <div class="habilitaçãoInfo">
+                            <label class="hab" for="habSelectBox">Possui habilitação?</label>
+                        <select class="habilitaçãoEscolha" id="habilitaçãoChooseBox">
+                            <option value="n">Não</option>
+                            <option value="y">Sim</option>
+                          </select>
+                        </div>
+        
+                        <div class="categoriaDaHabilitação">
+                            <label class="categoria" for="categoriaLabelBox">Categoria</label>
+                            <input name="categoria" id="cat"class="input" ></input>
+                        </div>         
+                    </div>
+                    
+                    <div class="linguaEstrangeira">
+                        <label class="linguaestrangeira" for="linguaEstrangeiraLabelBox"></label>
+                        <select class="linguaEstrangeiraEscolha" id="linguaEstrangeiraChooseBox">
+                            <option value="ing">Inglês</option>
+                            <option value="esp">Espanhol</option>
+                            <option value="fra">Francês</option>
+                        </select>
+                    </div>
+        
+                    <div class="InfoEndereço">
+                        <div class="estado">
+                            <label class="estado" for="estadoLabelBox">Estado</label>
+                            <input name="estado" id="estadoTextBox"class="input" data-type="nome" required></input>
+                        </div>
+        
+                        <div class="cidade">
+                            <label class="cidade" for="cidadeLabelBox">Cidade</label>
+                            <input name="cidade" id="cidadeTextBox"class="input" data-type="" required ></input>
+                        </div>
+                        
+                        <div class="cep">
+                            <label class="cep" for="cepLabelBox">Cep</label>
+                            <input name="cep" id="cepTextBox"class="input" ></input>
+                        </div>
+                        
+                        <div class="Logradouro">
+                            <label class="logradouro" for="logradouroLabelBox"></label>
+                            <input name="logradouro" id="logradouroTextBox"class="input" ></input>
+                        </div>
+        
+                        <div class="Numero">
+                            <label class="Numero" for="NumeroLabelBox"></label>
+                            <input name="numero" id="numeroTextbox"class="input" ></input>
+                        </div>
+                    </div>
+                    
+                <div class="SalarioInfo">
+                    <label class="Salario" for="salarioLabelBox">Salário proposto</label>
+                      <input name="salario" id="salarioTextBox" class="input">
+                </div>
+
+                <div class="CargoInfo">
+                    <select class="linguaEstrangeiraEscolha" id="cargoChooseBox">
+                        <option value="1">cargo 1</option>
+                        <option value="2">cargo 2</option>
+                        <option value="3">cargo 3</option>
+                    </select>
+                </div>
+                <button type="submit" class="botaoEnviar">Enviar</button>
+
+                
+                </div>
+            </div>
+        </form>
+    </div>
+    </main>     
+</body>
+</html>
